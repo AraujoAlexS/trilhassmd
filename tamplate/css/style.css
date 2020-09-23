@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&family=Roboto:wght@300&display=swap");
+
+[debug],
+[debug] *:not(g):not(path) {
+  color: hsla(210, 100%, 100%, 0.9) !important;
+  background: hsla(210, 100%, 50%, 0.5) !important;
+  outline: solid 0.25rem hsla(210, 100%, 100%, 0.5) !important;
+
+  box-shadow: none !important;
+  filter: none !important;
+}
+
+:root {
+  --cor-principal: #363740;
+  --cor-cinzaClaro: #c4c4c4;
+  --cor-hoverNav: #3e4049;
+
+  --cor-fontPrimaria: #898a90;
+  --cor-fontSecundaria: #363740;
+
+  --cor-trilhaAudiovisual: #00CECB;
+  --cor-trilhaSistema: #372772;
+  --cor-trilhaJogos: #ff5e5b;
+  --cor-trilhaDesign: #fec400;
+
+  --roboto: "Roboto Mono";
+}
+
+/* Icones da tela inicial*/
+.icone-trilha {
+  width: 6rem;
+  height: 6rem;
+  margin: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icone-trilha span {
+  font-size: 2.7rem;
+  color: white;
+}
+
+.cor-sistemas {
+  background-color: var(--cor-trilhaSistema) !important;
+}
+.cor-design {
+  background-color: var(--cor-trilhaDesign) !important;
+}
+.cor-audiovisual {
+  background-color: var(--cor-trilhaAudiovisual) !important;
+}
+.cor-jogos {
+  background-color: var(--cor-trilhaJogos) !important;
+}
+.bg-primary {
+  background-color: var(--cor-principal) !important;
+}
+
+/*Menu lateral*/
+.header-nav-link a {
+  color: var(--cor-cinzaClaro) !important;
+  margin-top: 0.8rem;
+}
+
+.nav-icone:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-left: 0.2rem solid white;
+}
+
+.link-ativo {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-left: 0.2rem solid white;
+}
+
+/* Card semestres */
+.nome-cadeira {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.info-cadeira {
+  margin-left: 3px;
+  margin-right: 3px;
+  font-size: 0.9rem;
+  border-radius: 3rem;
+  background-color: var(--cor-principal);
+  color: white;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  align-items: center;
+}
+
+.trilhas-smd-titulo {
+  font-size: 7.6rem;
+}
+
+.nome-usuario{
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--cor-cinzaClaro);
+}

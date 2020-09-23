@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilhas SMD - Mapa do Curso</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Font Awasome CDN -->
+    <script src="https://kit.fontawesome.com/98d4d87a5a.js" crossorigin="anonymous"></script>
+
+    <!-- Meu CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Coluna de navegação -->
+            <div class="col-2 bg-primary">
+                <!--Navegador vertical-->
+                <ul class="nav flex-column my-5 ">
+                    <li class="nav-item header-nav-link ">
+                        <img src="" alt="" class="rounded-circle imagem-usuario">
+                    </li>
+                    <li class="nav-item header-nav-link">
+                        <span class="nome-usuario"> Meu nome</span>
+                    </li>
+                    <li class="nav-item header-nav-link nav-icone">
+                        <a class="nav-link " href="index.html"><i class="fas fa-graduation-cap"></i> Minha jornada</a>
+                    </li>
+                    <li class="nav-item header-nav-link nav-icone">
+                        <a class="nav-link" href="trilhasDisciplinas.html"><i class="fas fa-route"></i> Trilhas e
+                            disciplinas</a>
+                    </li>
+                    <li class="nav-item header-nav-link nav-icone link-ativo">
+                        <a class="nav-link" href="mapaDoCurso.html"><i class="fas fa-compass"></i> Mapa do curso</a>
+                    </li>
+                    <li class="nav-item header-nav-link nav-icone">
+                        <a class="nav-link" href="meusDados.html"><i class="fas fa-user"></i> Meus dados</a>
+                    </li>
+                    <li class="nav-item header-nav-link nav-icone">
+                        <a class="nav-link" href="sobre.html"><i class="fas fa-scroll"></i> Sobre o projeto</a>
+                    </li>
+                    <li class="nav-item header-nav-link nav-icone">
+                        <a class="nav-link" href="#" id='sair'><i class="fas fa-chevron-circle-left"></i> Sair</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Coluna de informações-->
+            <div class="col-10">
+                <!--Linha de "minha formação"-->
+                <div class='d-flex justify-content-around lista-cadeira'>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+ https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-firestore.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyDbqx8VuvWuDx6bWKwOvdA-FYkZflCdvrI",
+            authDomain: "trilhas-smd.firebaseapp.com",
+            databaseURL: "https://trilhas-smd.firebaseio.com",
+            projectId: "trilhas-smd",
+            storageBucket: "trilhas-smd.appspot.com",
+            messagingSenderId: "99455611975",
+            appId: "1:99455611975:web:696453d9d749a287b32d62",
+            measurementId: "G-GKX4TKZHMR"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+        // Storage e autenticação firebase
+        const auth = firebase.auth();
+        const db = firebase.firestore();
+
+    </script>
+
+    <!--JQuery e Popper.js necessários para usar o Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <!--CDN Vue-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/auth.js"></script>
+
+</body>
+
+</html>
