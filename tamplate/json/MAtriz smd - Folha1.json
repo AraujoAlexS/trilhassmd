@@ -1,0 +1,946 @@
+[{
+		"id": "SMD0088",
+		"nome": "Autoração Multimídia 1",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"basico\"",
+		"categoria": "\"obrigatoria\"",
+		"conteudo": "Imagem estática bitmap: seleção, recorte, tratamento, colorização e filtragem. Imagem estática\nvetorial: primitivas gráficas e suas propriedades, introdução à ilustração digital e técnica de\nvetorização. Imagem animada: animação quadro a quadro, animação por interpolação de posição,\nrotação, escala e forma. Imagem interativa: componentes interativos e programação de resposta a\neventos.",
+		"semestre": 1
+	},{
+		"id": "SMD0089",
+		"nome": "Desenho 1",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"basico\"",
+		"categoria": "\"obrigatoria\"",
+		"conteudo": "Introdução ao desenho. Desenho linear. Desenho tonal. Exercícios práticos.",
+		"semestre": 1
+	},{
+		"id": "SMD0091",
+		"nome": "História do Design",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"basico\"",
+		"categoria": "\"obrigatoria\"",
+		"conteudo": "Conceitos de design. Transformações sócio-culturais na história do design. Principais movimentos,\ndesigners e artefatos da história do design. O design no Brasil. Design, arte e cultura material.",
+		"semestre": 1
+	},{
+		"id": "SMD0094",
+		"nome": "Introdução a Sistemas e Mídias Digitais",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"basico\"",
+		"categoria": "\"obrigatoria\"",
+		"conteudo": "Introdução à mídia digital. Fundamentos da comunicação e mídias digitais. Convergência de mídias.\nEntretenimento digital e jogos eletrônicos. Cadeia produtiva de mídia digital interativa: etapas,\nprocessos, técnicas, profissionais, equipes e produtos. Aspectos psicológicos e comportamento do\nusuário em produtos multimídia.",
+		"semestre": 1
+	},{
+		"id": "SMD0095",
+		"nome": "Programação 1",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"basico\"",
+		"categoria": "\"obrigatoria\"",
+		"conteudo": "Conceitos de linguagens de programação. Apresentação das ferramentas de programação voltadas\npara a área de Mídias Digitais. Conceitos e estruturas básicas de Algoritmos. Introdução aos\nparadigmas de programação: linguagens estruturadas e orientadas a objetos. Orientação a Objetos:\nClasse, Objeto, Atributos, Eventos/Métodos e encapsulamento. Programação de algoritmos\nutilizando de uma linguagem em pseudocódigo ou visual (Visual Programming Language - VPL).\nProblemas formais e resolução de problemas. Estruturas condicionais e de repetições. Variáveis\ncompostas homogêneas unidimensionais (Vetores ou Listas). Prática direcionada à área de Mídias\nDigitais através da construção de aplicações multimídia.",
+		"semestre": 1
+	},{
+		"id": "SMD0093",
+		"nome": "Narrativas Multimídia",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"basico\"",
+		"categoria": "\"obrigatoria\"",
+		"conteudo": "Bases da narrativa a partir de elementos da análise do discurso. Roteiro e suas características a partir\nda mídia utilizada. Documentação e suas ferramentas: storyboard, storyreel, timeline, interação\nentre as mídias. Navegabilidade. Arquitetura da informação e suas fases: esquema de organização,\nmodelo de narrativa e sistema de rotulação.",
+		"semestre": 2
+	},{
+		"id": "SMD0096",
+		"nome": "Programação 2",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"basico\"",
+		"categoria": "\"obrigatoria\"",
+		"conteudo": "Variáveis, operadores, escopo e bloco de comandos, vetores, matrizes, strings, funções e orientação\na objetos.",
+		"requisitos": "SMD0095",
+		"semestre": 2
+	},{
+		"id": "SMD0105",
+		"nome": "Comunicação Visual 1",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"basico\"",
+		"categoria": "\"obrigatoria\"",
+		"conteudo": "Conceitos e elementos da Comunicação Visual: elementos e propriedades gráficas e níveis da\nlinguagem visual. Teoria da Gestalt aplicada à comunicação visual. Técnicas básicas de composição\nvisual e layout. Princípios de design gráfico. Tipografia e harmonias cromáticas. Estudos de caso,\ncriação e exposição de peças.",
+		"requisitos": "SMD0088",
+		"semestre": 2
+	},{
+		"id": "SMD0106",
+		"nome": "Matemática Aplicada a Multimídia 1",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"basico\"",
+		"categoria": "\"obrigatoria\"",
+		"conteudo": "Sistemas, mídias e matemática. Funções. Geometria Euclidiana: conceitos e exemplos práticos. Coordenadas\npolares. Lugares geométricos: definições, equações e aplicações. Conjuntos. Cardinalidade. Diagramas de\nVenn e de Euler. Operações com conjuntos. Relações entre conjuntos. Combinatória. Fenômenos aleatórios,\nfrequência, e exemplos práticos. População, amostra, e amostragem. Média, mediana e moda: definição,\nsignificado e aplicações. Amplitude, variância e desvios. Distribuição normal e distribuição de Poisson.",
+		"requisitos": "SMD0095",
+		"semestre": 2
+	},{
+		"id": "SMD0107",
+		"nome": "Cognição e Tecnologias Digitais",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"basico\"",
+		"categoria": "\"obrigatoria\"",
+		"conteudo": "Perspectivas behaviorista e cognitivista do conhecimento. Teorias que fundamentam o uso e\ndesenvolvimento de artefatos digitais na educação. Avaliação de materiais educacionais digitais.\nConcepção e desenvolvimento de material educacional digital.",
+		"semestre": 2
+	},{
+		"id": "SMD0015",
+		"nome": "Design de Interfaces Gráficas",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"basico\"",
+		"categoria": "\"obrigatoria\"",
+		"conteudo": "Introdução às Interfaces Gráficas. Design Gráfico Aplicado às GUI. Tecnologias de Interfaces\nGráficas. Interfaces Gráficas em Sistemas Multimídia. Interfaces Gráficas em Sistemas\nEmbarcados. Avaliação e Testes. Estudo de Caso.",
+		"requisitos": "SMD0105",
+		"semestre": 3
+	},{
+		"id": "SMD0092",
+		"nome": "Projeto Integrado 1",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"basico\"",
+		"categoria": "\"obrigatoria\"",
+		"conteudo": "Definição de características iniciais do produto multimídia de complexidade baixa. Estabelecimento\nde metodologia de desenvolvimento. Geração de produto, de acordo com a metodologia\npreviamente adotada. Apresentação e discussão de resultados intermediários e finais.",
+		"requisitos": "SMD0105,SMD0096",
+		"semestre": 3
+	},{
+		"id": "SMD0097",
+		"nome": "Autoração Multimídia 2",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"basico\"",
+		"categoria": "\"obrigatoria\"",
+		"conteudo": "Técnicas de animação digital: princípios e técnicas básicos, geração de clips de filme e sonorização.\nTécnicas de interatividade digital: geração e programação de elementos interativos.\nPublicação/disponibilização de aplicação final. Integração de mídia externa, geração de bibliotecas e\nuso de componentes. Desenvolvimento de projeto final.",
+		"requisitos": "SMD0088",
+		"semestre": 3
+	},{
+		"id": "SMD0108",
+		"nome": "Interação Humano-computador 1",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"basico\"",
+		"categoria": "\"obrigatoria\"",
+		"conteudo": "Introdução a Interação Humano-Computador.. Fatores Humanos em Interação Humano-\nComputador. Análise e reflexão sobre Design. Métodos e Técnicas utilizadas em Interação\nHumano-Computador. Projeto Final.",
+		"semestre": 3
+	},{
+		"id": "SMD0109",
+		"nome": "Introdução à Cibercultura",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"basico\"",
+		"categoria": "\"obrigatoria\"",
+		"conteudo": "A Sociedade da Informação. As tecnologias da informação e da comunicação e a sociedade: aspectos econômicos, políticos,\neducacionais e sociais. Ciberespaço e interatividade - a cultura do compartilhamento: as redes sociais virtuais. Internet: informação,\ndiversão e interação: a indústria do entretenimento. Liberdade e Privacidade na Internet. Novas tecnologias, novas mídias.",
+		"semestre": 3
+	},{
+		"id": "SMD0030",
+		"nome": "Análise e Projeto de Sistemas",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"sistemas\"",
+		"categoria": "\"eletiva\"",
+		"conteudo": "Introdução à análise de sistemas. Ciclo de vida e os paradigmas de desenvolvimento de software.\nAbordagens de desenvolvimento em geral (Estruturada, Orientada a Objetos, etc.). Análise\nOrientada a Objetos: técnica de modelagem: UML - Unified Modeling Language. Especificação e\ndocumentação em UML com Ferramentas",
+		"requisitos": "SMD0096",
+		"semestre": 4
+	},{
+		"id": "SMD0033",
+		"nome": "Estrutura de Dados",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"sistemas\"",
+		"categoria": "\"eletiva\"",
+		"conteudo": "Complexidade. Recursão. Listas: estática, dinâmica, simplesmente encadeada, duplamente\nencadeada, circular. Fila em Estrutura Dinâmica e estática. Pilha em estrutura dinâmica e estática.\nÁrvores binárias e balanceada, Estruturas auto-ajustáveis. Tabelas de dispersão. Algoritmos de\nordenação e de busca. Estruturas específicas de sistemas multimídia e de jogos digitais",
+		"requisitos": "SMD0096",
+		"semestre": 4
+	},{
+		"id": "SMD0037",
+		"nome": "Redes de Computadores",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"sistemas\"",
+		"categoria": "\"eletiva\"",
+		"conteudo": "Introdução às Redes de Computadores; Conceitos Básicos de Redes de Computadores; Topologias\nde Redes; Camada de Aplicação: Transmissão de Arquivos, DNS, SMTP e a Web; Programação em\nRede; Componentes lógicos e físicos em Redes; Ligações inter-redes; Conceitos Básicos em\nTransmissão de Dados; Introdução às Redes sem fio; Redes de Computadores e os Jogos Digitais.",
+		"requisitos": "SMD0096",
+		"semestre": 4
+	},{
+		"id": "SMD0086",
+		"nome": "Fotografia Digital",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"audiovisual\"",
+		"categoria": "\"eletiva\"",
+		"conteudo": "O conceito de imagem. A fotografia analógica e digital. Características da Câmera\nDigital. Processo de captação de imagens digitais. Iluminação, composição. Lentes e\nfiltros. Efeitos de abertura e velocidade de exposição. Profundidade de campo.\nFormatos de armazenamento e compressão. Estéticas das imagens Digitais. HDR,\nRAW. Fotografia 3D. Ensaio fotográfico.",
+		"requisitos": "SMD0105",
+		"semestre": 4
+	},{
+		"id": "SMD0090",
+		"nome": "Semiótica Aplicada",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"audiovisual\"",
+		"categoria": "\"eletiva\"",
+		"conteudo": "Perspectiva histórica e contemporânea da semiótica e sua relação com as mídias digitais, com\nparticular ênfase às teorias semióticas e à semiótica da cultura e da arte. Conceitos de signo e\nsignificação. Principais elementos de semiótica aplicada. Elementos da retórica na arte e na mídia.",
+		"requisitos": "SMD0106",
+		"semestre": 4
+	},{
+		"id": "SMD0098",
+		"nome": "Desenho 2",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"audiovisual\"",
+		"categoria": "\"eletiva\"",
+		"conteudo": "Imaginação espacial e desenho construtivo. Perspectiva linear e desenho da figura humana.\nExercícios práticos.",
+		"requisitos": "SMD0089",
+		"semestre": 4
+	},{
+		"id": "SMD0102",
+		"nome": "Metodologia de Pesquisa Científica",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"obrigatoria\"",
+		"conteudo": "Processo de elaboração de projetos. Roteiro: título, caracterização do problema e\njustificativa,objetivos, metas, metodologia, cronograma e referências bibliográficas. Formulação,\napresentação e defesa de projeto.",
+		"semestre": 4
+	},{
+		"id": "SMD0032",
+		"nome": "Design de Som",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"audiovisual\"",
+		"categoria": "\"eletiva\"",
+		"conteudo": "O universo sonoro. Conceitos musicais introdutórios. Som como dado: criação e organização de\nmúsicas e efeitos sonoros para mídias digitais; técnicas de captura, tratamento e edição de som. Som\ncomo processo: som e programação; síntese sonora.",
+		"requisitos": "SMD0093",
+		"semestre": 5
+	},{
+		"id": "SMD0055",
+		"nome": "Engenharia de Software",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"sistemas\"",
+		"categoria": "\"eletiva\"",
+		"conteudo": "Evolução da Engenharia de Software. Processo de Software. Engenharia de Requisitos. Projeto de\nSoftware. Teste de Software. Gestão de Projetos de Software. Qualidade de Software.",
+		"requisitos": "SMD0030",
+		"semestre": 5
+	},{
+		"id": "SMD0099 ",
+		"nome": "Banco de Dados 1",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"sistemas\"",
+		"categoria": "\"eletiva\"",
+		"conteudo": "Sistemas de Banco de Dados. Modelo Entidade-Relacionamento. Modelo Relacional.\nProjeto de Banco de Dados. Álgebra Relacional. Linguagem SQL. Aplicações em Bancos de Dados.\nRestrições de Integridade em Banco de Dados Relacional.",
+		"requisitos": "SMD0096",
+		"semestre": 5
+	},{
+		"id": "SMD0110",
+		"nome": "Comunicação Visual 2",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"design\"",
+		"categoria": "\"eletiva\"",
+		"conteudo": "- Linguagem Visual: Analise da linguagem visual em seus aspectos semânticos, sintáticos e\nestéticos.\n- Imagens fotográficas e digitais: Utilização da fotografia e das imagens digitais na criação\nde peças gráficas.\n- Identidade Visual e Projeto de Sinalização: Elaboração de projeto de comunicação visual\naplicado a desenvolvimentos de produtos midiáticos digitais.",
+		"requisitos": "SMD0105",
+		"semestre": 5
+	},{
+		"id": "SMD0025",
+		"nome": "Ética e Política Autoral",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"obrigatoria\"",
+		"conteudo": "Definição, história e filosofia de ética e moral. Aplicação destes conceitos no âmbito social,\nprofissional e individual. Questões de ética na mídia e educação. Mídia, direitos humanos e\ncidadania. Mídia, mercado e direitos. Espaço público e Novas Tecnologias da Informação e da\nComunicação. Ética profissional na área da Ciência e Tecnologia. Ética em computação. Aspectos\njurídicos da internet. Direito Autoral. Responsabilidade civil e penal sobre a tutela da informação.",
+		"semestre": 6
+	},{
+		"id": "SMD0100",
+		"nome": "Gestão de Projetos Multimídia",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"obrigatoria\"",
+		"conteudo": "Introdução à Gestão de Projetos. Introdução à Economia Criativa. Introdução à elaboração de Plano de Negócio. Características,\ntipos e profissionais dos Projetos Multimídia. Design Thinking. Gestão da Integração. Gestão do Escopo. Gestão do Tempo. Gestão\ndos Custos. Gestão da Qualidade. Gestão de Recursos humanos. Gestão das Comunicações. Gestão dos Riscos. Gestão das\nAquisições. Gestão das Partes Interessadas. Grupos de processos: Iniciação, Planejamento, Execução, Controle, Encerramento.\nEstudos de Casos.",
+		"requisitos": "SMD0092",
+		"semestre": 6
+	},{
+		"id": "SMD0101",
+		"nome": "Projeto Integrado 2",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"obrigatoria\"",
+		"conteudo": "Definição de características iniciais de conteúdo multimídia específico. Estabelecimento de\nmetodologia de desenvolvimento. Geração de conteúdo multimídia específico, de acordo com a\nmetodologia previamente adotada. Apresentação e discussão de resultados intermediários e finais.",
+		"requisitos": "SMD0102",
+		"semestre": 7
+	},{
+		"id": "SMD0103",
+		"nome": "Semnários em Multimídia",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"obrigatoria\"",
+		"conteudo": "Eventos com convidados apresentando tendências nas áreas relacionadas a Sistemas e Mídias\nDigitais. Leitura e análise de artigos de congressos e publicações relacionadas com Sistemas e\nMídias Digitais. Discussões dos assuntos abordados.",
+		"semestre": 8
+	},{
+		"id": "SMD0111",
+		"nome": "Projeto de Trabalho Final",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"obrigatoria\"",
+		"conteudo": "Processo de elaboração de projetos. Roteiro: título, caracterização do problema e justificativa,\nobjetivos, metas, metodologia, cronograma e referências bibliográficas. Formulação, apresentação e\ndefesa de projeto.",
+		"requisitos": "SMD0102",
+		"semestre": 8
+	},{
+		"id": "ED0115 ",
+		"nome": "Administração Mercadológica 1",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"optativa\"",
+		"conteudo": "Marketing: Definição e Conceitos. Abordagem Sistêmica do Marketing. Estudo\ndo comportamento do Consumidor. Segmento de Mercado. Sistemas de Informação de\nmarketing. Áreas de aplicação do marketing."
+	},{
+		"id": "HLL0077",
+		"nome": "Língua Brasileira de Sinais - LIBRAS",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"optativa\""
+	},{
+		"id": "PRG0002",
+		"nome": "Relações Étnico-raciais e Africanidades",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"optativa\""
+	},{
+		"id": "PRG0003",
+		"nome": "Educação Ambiental",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"optativa\""
+	},{
+		"id": "PRG0004",
+		"nome": "Educação em Direitos Humanos",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"optativa\""
+	},{
+		"id": "PRG0005",
+		"nome": "Diferença e Enfrentamento Profissional nas Desigualdades Sociais",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"optativa\""
+	},{
+		"id": "SMD0006 ",
+		"nome": "Sociedade, Cultura e Tecnologia",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"optativa\""
+	},{
+		"id": "SMD0008",
+		"nome": "Educação, Cognição e Tecnologias Digitais",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"optativa\""
+	},{
+		"id": "SMD0013",
+		"nome": "Fundamentos de Material Didático para Ed. a Distância",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"optativa\""
+	},{
+		"id": "SMD0016",
+		"nome": "Linguagem Audiovisual",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"audiovisual\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "O cinema como matriz do Audiovisual. A imagem em movimento do filme ao Sensor.\nDesenvolvimento histórico do conceito de Linguagem Audiovisual. A Gramática do Audiovisual.\nRecursos de linguagem. Técnicas de produção de áudio e vídeo. Etapas de produção. Equipe\ntécnica. Captação e edição de imagens: movimentos de câmera, enquadramento, planificação.\nProdução e captação de áudio. Criação de Roteiros, da ideia ao tratamento final."
+	},{
+		"id": "SMD0017",
+		"nome": "Programação Orientada a Objetos",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"sistemas\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Conceitos Básicos de Orientação a Objetos – Classes, Atributos, Métodos, Controle de\nacesso a Métodos (serviços) e Atributos, Assinatura, Construtores, Destrutores,\nGerência de Memória, Referência de Objetos já existentes, Passagem de Parâmetros,\nSobrecarga, Herança, Composição, Classes Abstratas, Polimorfismo, Interface,\nPackages.",
+		"requisitos": "SMD0096"
+	},{
+		"id": "SMD0019",
+		"nome": "Mitos e Arquétipos",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"audiovisual\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "O que é mito. O que são arquétipos. Tipos de arquétipos. Origens dos mitos. Jornada\ndo herói. Mitos de Criação. Mitos de Metamorfoses. Criaturas. Universos Fictícios. Heróis, heroínas\ne anti-heróis. Mitos modernos."
+	},{
+		"id": "SMD0020",
+		"nome": "Prototipação de Jogos Tridimensionais",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"jogos\"",
+		"categoria": "\"optativa\""
+	},{
+		"id": "SMD0021",
+		"nome": "Gestão de Negócios Multimídia",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"optativa\""
+	},{
+		"id": "SMD0023",
+		"nome": "Design de Jogos Digitais",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"jogos\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "O que é design de jogos. Gêneros. A experiência do jogo. Estrutura de um jogo. Elementos de um\njogo. Interação. Análise do Jogador. Mecânicas de um jogo. Interfaces de jogos. Temas. O mundo\nde um jogo. Tecnologias. Jogos multiusuários. Equipe de trabalho. Testes. Responsabilidades do\ndesigner de jogos. Documentos. Indústria dos jogos. Estudos de caso.",
+		"requisitos": "SMD0093"
+	},{
+		"id": "SMD0024",
+		"nome": "Design Instrucional",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"optativa\"",
+		"requisitos": "SMD0013"
+	},{
+		"id": "SMD0027",
+		"nome": "Edição Audiovisual",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"audiovisual\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Edição audiovisual linear e não-linear. Áudio: captação, tratamento e publicação. Vídeo: captação,\ntratamento e publicação. Estabelecimento de ritmo, corte, ordenação de planos, continuidade e\nmontagem. Sonorização. Dublagem. Efeitos especiais de som e de vídeo. Inserção de legendas.\nPublicação e disponibilização.",
+		"requisitos": "SMD0036"
+	},{
+		"id": "SMD0028",
+		"nome": "Laboratório de Programação",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"sistemas\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Estruturas de dados básicas. Projeto e implementação de algoritmos específicos utilizando uma\nlinguagem de programação orientada a objetos para resolução de problemas diversos. Estratégias de\nprogramação: dividir para conquistar, modularização, concorrência, recursão etc. Noções de\ndesenvolvimento de sistemas multimídia ou jogos digitais.",
+		"requisitos": "SMD0096"
+	},{
+		"id": "SMD0029",
+		"nome": "Ambientes Virtuais de Aprendizagem",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"optativa\"",
+		"requisitos": "SMD0095"
+	},{
+		"id": "SMD0031",
+		"nome": "Comunicação em novas Mídias",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"audiovisual\"",
+		"categoria": "\"optativa\"",
+		"requisitos": "SMD0093"
+	},{
+		"id": "SMD0034",
+		"nome": "Ferramentas de Modelagem Tridimensional 1",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"jogos\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Primitivas gráficas tridimensionais. Modelagem por sobreposição de elementos. Técnicas\nespecíficas de modelagem. Modelagem por aplicação de modificadores. Aplicação e mapeamento\nde materiais simples e compostos. Técnicas básicas de iluminação. Classificação e posicionamento\nde câmeras. Processo de renderização.",
+		"requisitos": "SMD0088"
+	},{
+		"id": "SMD0035",
+		"nome": "Matemática e Física para Jogos",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"jogos\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Representação numérica. Sistemas de coordenadas. Vetores. Matrizes. Quatérnios. Elementos\ngeométricos. Transformações geométricas. Curvas e superfícies. Particionamento de espaço.\nColisão. Interpolação. Velocidade. Aceleração. Movimento. Forças. Energia. Exercícios e\nimplementações práticas e teóricas.",
+		"requisitos": "SMD0096"
+	},{
+		"id": "SMD0036",
+		"nome": "Produção Audiovisual",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"audiovisual\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Planejamento de Produção Audiovisual: pré-produção, produção e pós-produção. Desenvolvimento\nde Projeto Final: realização de vídeos em estúdio e em locações específicas, sob orientação de um\nprofessor.",
+		"requisitos": "SMD0016"
+	},{
+		"id": "SMD0038",
+		"nome": "Álgebra Computacional para Programação",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"sistemas\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Conceitos, operações e implementações computacionais com Vetores, Matrizes,\nOrdenamentos Tridimensionais e Multidimensionais (Tensores) e Determinantes, Sistemas de\nEquações Lineares, Espaço Vetorial (Bi e Tri-Dimensional), Espaços Vetoriais Euclidianos,\nArbitrários e com Produto Interno, Transformações Lineares, Autovalores e Autovetores e\nalgoritmos de Decomposição/Fatoração de Matrizes e Ordenamentos Tridimensionais."
+	},{
+		"id": "SMD0039",
+		"nome": "Cultura de Jogos",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"jogos\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Definição e conceituação de jogos eletrônicos. Narratologia e Ludologia. História dos\nJogos eletrônicos. Plataformas e dispositivos. Influências dos jogos na cultura contemporânea.\nTipologia dos jogos eletrônicos. Avaliação e Crítica de Games."
+	},{
+		"id": "SMD0040",
+		"nome": "Experimentos em Multimídia 1",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"audiovisual\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Apresentação, análise e discussão de tendências na área de multimídia. Avaliação de\nsoluções técnicas e tecnológicas que viabilizem a construção de produtos/artefatos de mídia digital\nde diversos gêneros (aplicativos, serviços online, jogos eletrônicos, instalações multimídia\ninterativas, etc). Construção de protótipos, realização de testes, avaliação de resultados,\ndesenvolvimento de modelos finais e exposição/aplicação junto à comunidade.",
+		"requisitos": "SMD0088, SMD0095"
+	},{
+		"id": "SMD0041",
+		"nome": "Filosofia da Tecnologia",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"optativa\""
+	},{
+		"id": "SMD0042",
+		"nome": "Gerência de Projetos de Software",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"sistemas\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "A Relevância da Gerência de Projetos. Conceitos Básicos. Estruturas Organizacionais.\nO Gerente e a Equipe. Metodologias de Gerência de Projetos de Software. Discussão de Tópicos em\nGerência de Projetos"
+	},{
+		"id": "SMD0044",
+		"nome": "Introdução a Computação Móvel e Ubíqua",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"sistemas\"",
+		"categoria": "\"optativa\""
+	},{
+		"id": "SMD0045",
+		"nome": "Linguagem de Programação Script",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"sistemas\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Introdução a linguagem script. Linguagem compilada X interpretada. Prototipagem.\nProgramação Web. Scripts para configuração e extensão de softwares. Programação em uma\nlinguagem de programação script.",
+		"requisitos": "SMD0096"
+	},{
+		"id": "SMD0047",
+		"nome": "Processamento Digital de Áudio",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"audiovisual\"",
+		"categoria": "\"optativa\"",
+		"requisitos": "SMD0095"
+	},{
+		"id": "SMD0048",
+		"nome": "Teste de Software Aplicado",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"sistemas\"",
+		"categoria": "\"optativa\"",
+		"requisitos": "SMD0095"
+	},{
+		"id": "SMD0049",
+		"nome": "Técnicas de Animação Analógica",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"audiovisual\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "História da animação. Introdução ao universo da animação. Estudo específico das técnicas,\nprocedimentos. Princípios e técnicas da animação clássica: teoria e prática. Exercícios.",
+		"requisitos": "SMD0089"
+	},{
+		"id": "SMD0050",
+		"nome": "Sistemas Distribuídos",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"sistemas\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Introdução aos Sistemas Distribuídos. Comunicação e Sincronização em Sistemas Distribuídos.\nComunicação inter-processos utilizando Remote Procedure Call (RPC). Modelo RMI (Remote\nMethod Invocation). Arquiteturas e tecnologias para desenvolvimento de Aplicações Distribuídas.\nConceitos e criação de Middleware. Arquiteturas Orientadas a Serviço.",
+		"requisitos": "SMD0037, SMD0096"
+	},{
+		"id": "SMD0051",
+		"nome": "Redação para Mídias Digitais",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"design\"",
+		"categoria": "\"optativa\"",
+		"requisitos": "SMD0090, SMD0093"
+	},{
+		"id": "SMD0052",
+		"nome": "Programação para Web 1",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"sistemas\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Estrutura de funcionamento da Web; Modelos de programação para Web; Linguagens de Script para\ninterface de Aplicações Web e Formulários; Linguagens Orientadas a Objetos para Web e Páginas\nDinâmicas; Persistência de Dados em Sessões Web: Cookies e Variáveis de Sessão; Comunicação\ncom Banco de Dados.",
+		"requisitos": "SMD0097, SMD0099"
+	},{
+		"id": "SMD0053",
+		"nome": "Programação para Jogos 1",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"jogos\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Estrutura Geral. Representação de personagens, cenários e objetos. Animação. Inclusão de som e\nmúsica. Técnicas de Scrolling. Detecção de colisão. Motores gráficos: estrutura e conceitos. Carga\nde mundos, personagens, objetos e animações em 3D. Efeitos especiais. Sistemas de Partículas.\nTécnicas de otimização para visualização de imagens. Desenvolvimento de protótipos.",
+		"requisitos": "SMD0096"
+	},{
+		"id": "SMD0054",
+		"nome": "Inteligência Computacional Aplicada a Jogos 1",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"jogos\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Introdução. O que é Inteligência Computacional. Interação e comportamento. IC e os jogos. Agentes\nInteligentes. Técnicas de movimentação. Predição de movimento. Mecanismos de percepção.\nMecanismos de tomada de decisão. Aprendizado. Introdução às redes neurais. Sistemas de Script.",
+		"requisitos": "SMD0096"
+	},{
+		"id": "SMD0056",
+		"nome": "Direção de Arte para Multimídia",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"audiovisual\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "O que é direção de arte. Processo criativo: briefing, brainstorming, conceituação e\ngerenciamento da produção. Análise e elaboração de soluções conceituais e visuais. Projetos\nexperimentais em direção de arte aplicada a mídias digitais.",
+		"requisitos": "SMD0097"
+	},{
+		"id": "SMD0057",
+		"nome": "Concepção de Cenários e de Personagens",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"audiovisual\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Concept art. Design de personagens. Criação de cenários. Projetos práticos.",
+		"requisitos": "SMD0098"
+	},{
+		"id": "SMD0059",
+		"nome": "Mídias Digitais e Matemática",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"design\"",
+		"categoria": "\"optativa\"",
+		"requisitos": "SMD0094"
+	},{
+		"id": "SMD0061",
+		"nome": "Programação para Jogos 2",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"jogos\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Estruturas de dados espaciais. Detecção avançada de colisão. Uso de scripts. Modelos de\nsombreamento de vértices e pixels. Uso de texturas para efeitos de iluminação. Modelos em níveis\nde detalhes (LOD - Level Of Detail). Efeitos especiais. Interligação de mundos. Modelos físicos:\nconceitos e fundamentos. Editores de fase. Desenvolvimento de protótipos.",
+		"requisitos": "SMD0053"
+	},{
+		"id": "SMD0065",
+		"nome": "Desenvolvimento de Aplicações Distribuídas",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"sistemas\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Introdução ao projeto de aplicações distribuídas. Desenvolvimento de protocolos para aplicações\ndistribuídas. Comunicação utilizando Socket. Criação de componentes distribuídos. Criação de\nserviços web. Segurança em aplicações distribuídas. Desenvolvimento de aplicações específicas.",
+		"requisitos": "SMD0050"
+	},{
+		"id": "SMD0066",
+		"nome": "Autoração de Mídia de Armazenamento Local",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"design\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Conceitos básicos acerca de mídias de armazenamento local (CD-ROM, DVD, discos Blu-Ray,\ncartões de memória, pen-drives etc.). Processo de autoração de mídias de armazenamento local.\nDesenvolvimento de projeto final.",
+		"requisitos": "SMD0015"
+	},{
+		"id": "SMD0069",
+		"nome": "Programação para Web 2",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"sistemas\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Técnicas para introduzir estado na aplicação. Emprego de linguagens declarativas. Implementação\nde web services. Construção de componentes para web. Configuração de framework para aplicações\nweb: apresentação, regras de negócio e persistência de dados. Segurança em aplicações web.",
+		"requisitos": "SMD0052"
+	},{
+		"id": "SMD0070",
+		"nome": "Sistemas Embarcados",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"sistemas\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Introdução aos sistemas embarcados. Sistemas embarcados: hardware e software. Projeto e\ndesenvolvimento de sistemas embarcados. Sistemas móveis. Sistemas em TV digital.",
+		"requisitos": "SMD0096"
+	},{
+		"id": "SMD0071",
+		"nome": "Videografismo",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"audiovisual\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Narrativas em vídeo, linguagem, estilos videográficos e efeitos especiais. Geração de cartelas,\naberturas de vídeo, vinhetas, listas de créditos, introduções de videogames, Full Motion Video e\nmachinima.",
+		"requisitos": "SMD0027, SMD0034"
+	},{
+		"id": "SMD0072",
+		"nome": "Técnicas de Animação Digital 1",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"audiovisual\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "O processo de animação digital e suas particularidades. Técnicas básicas: definição de quadros-\nchave e interpolação, definição de caminhos, esqueleto, cinemática inversa, cinemática direta,\nautomatismos, entre outros. Adaptação de técnicas clássicas. Efeitos especiais básicos e geração de\nvídeo.",
+		"requisitos": "SMD0049"
+	},{
+		"id": "SMD0073",
+		"nome": "Jogos Multiplataforma",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"jogos\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Conceitos. Gerações de videogames: aspectos técnicos. Tipos de plataformas: consoles, dispositivos\nmóveis, Web, etc. Emulação. Portabilidade. Frameworks de desenvolvimento em plataformas\nespecíficas. Estudo de casos.",
+		"requisitos": "SMD0053"
+	},{
+		"id": "SMD0074",
+		"nome": "Jogos Distribuídos",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"jogos\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Principais modelos de jogos distribuídos: MUD, MOO, MMORPG e outros modelos multiusuários.\nEstudos de casos de jogos distribuídos baseada em conexão ponto-a-ponto, cliente-servidor e outras\narquiteturas. Desenvolvimento de projeto final.",
+		"requisitos": "SMD0050, SMD0053"
+	},{
+		"id": "SMD0075",
+		"nome": "Desenvolvimento de Material Didático Experimental e Treinamento de Habilidades",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"optativa\"",
+		"requisitos": "SMD0013"
+	},{
+		"id": "SMD0076",
+		"nome": "Cibercultura e Educação: Novas Práticas",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"optativa\""
+	},{
+		"id": "SMD0078",
+		"nome": "Desenvolvimento de Jogos Casuais",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"jogos\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Apresentação da ideia de jogos casuais e respectivos conceitos envolvidos (diversão, jogabilidade,\nimersão, simplicidade de uso, etc.). Discussão e prática de técnicas e tecnologias voltadas ao\ndesenvolvimento de jogos casuais. Especificação de jogo casual. Desenvolvimento de jogo casual.\nAplicação de jogo casual. Avaliação de jogo casual.",
+		"requisitos": "SMD0096, SMD0105"
+	},{
+		"id": "SMD0079",
+		"nome": "Desenvolvimento de Motores Gráficos",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"jogos\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Conceitos fundamentais. Pipelines gráficas. Pipelines gráficas programáveis. Câmeras. Malhas. Materiais. Animação. Representação\nde cenas. Estruturas de dados e algoritmos para aceleração gráfica. Técnicas básicas de renderização de efeitos especiais. Construção\nde uma API de alto nível. Aspectos de integração com outros componentes. Estudos de casos.",
+		"requisitos": "SMD0080"
+	},{
+		"id": "SMD0080",
+		"nome": "Computação Gráfica",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"jogos\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Introdução, Sistemas Gráficos, Primitivas Gráficas, Rasterização e Algoritmos de Bresenham,\nRepresentação e Modelagem de Objetos, Cor e sistemas de cores, OpenGL, Transformações\nGeométricas 2D e 3D, Projeções Paralelas e Perspectivas, Matrizes de Visualização e de Projeção,\nZ-Buffer e buffers de vídeo, Texturização e Listas de Exibição, Iluminação, Projetos em\nComputação Gráfica",
+		"requisitos": "SMD0035"
+	},{
+		"id": "SMD0081",
+		"nome": "Inteligência Computacional Aplicada a Jogos 2",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"jogos\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Tópicos avançados em inteligência computacional para jogos. Sistemas multiagentes, aprendizado\nde máquina, redes neurais, motores para jogos e projetos de inteligência computacional para jogos.",
+		"requisitos": "SMD0054"
+	},{
+		"id": "SMD0082",
+		"nome": "Jogos para Console",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"jogos\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Introdução e histórico. Arquiteturas modernas de microprocessadores. Análise das cargas de\ntrabalho nos jogos. Gargalos computacionais. Arquiteturas de console. Hardware gráfico. Processo\nde desenvolvimento: técnicas de programação e ferramentas. Distribuição de jogos. Estudo de caso.",
+		"requisitos": "SMD0073"
+	},{
+		"id": "SMD0083",
+		"nome": "Educomunicação",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"optativa\""
+	},{
+		"id": "SMD0084",
+		"nome": "Experimentos em Tipografia Digital",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"design\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Tipografia: história e evolução. Nomenclatura e classificação dos tipos. A tipografia como meio de\nexpressão. Aplicação em projetos gráficos.",
+		"requisitos": "SMD0105"
+	},{
+		"id": "SMD0085",
+		"nome": "Frameworks de Software",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"sistemas\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Definir frameworks de software. Estudar frameworks de persistência de dados, log de operações,\ngráficos, geração de relatórios. Estudar tópicos avançados ou atuais em frameworks de software.",
+		"requisitos": "SMD0055"
+	},{
+		"id": "SMD0087",
+		"nome": "Filosofia da Tecnologia",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"optativa\""
+	},{
+		"id": "SMD0112",
+		"nome": "Instalações Multimídia",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"audiovisual\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Apresentação, análise e discussão do conceito de instalação multimídia. Avaliação de soluções\ntécnicas e tecnológicas que viabilizem a construção de instalações multimídia interativas de diversos\ngêneros. Construção de protótipos, realização de testes, avaliação de resultados, desenvolvimento de\nmodelos finais e exposição/aplicação junto à comunidade."
+	},{
+		"id": "SMD0113",
+		"nome": "Laboratório de Criatividade",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": " \"design\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Definições de criação, inovação e criatividade. Os processos criativos e seu uso no Design.\nDesenvolvimento e a aplicação prática de técnicas criativas. Bloqueios e Desbloqueadores. Técnicas\nde geração de ideias."
+	},{
+		"id": "SMD0114",
+		"nome": "Computação Física",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"sistemas\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Introdução a Interação Humano-Computador. Fatores Humanos em Interação Humano-Computador.\nAnálise e reflexão sobre Design. Métodos e Técnicas utilizadas em Interação Humano-Computador.\nProjeto Prático."
+	},{
+		"id": "SMD0115",
+		"nome": "Métodos e Técnicas na Pesquisa Transdisciplinar",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"optativa\""
+	},{
+		"id": "SMD0116",
+		"nome": "Tecnodocência e Animação",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"audiovisual\"",
+		"categoria": "\"optativa\""
+	},{
+		"id": "SMD0117",
+		"nome": "Interação Humano-computador 2",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"optativa\""
+	},{
+		"id": "SMD0118",
+		"nome": "Teoria e Crítica do Design",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"design\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Aspectos teóricos fundamentais. Teoria e crítica do design em diferentes esferas: objetos,\ncomunicações e sistemas. Análise de estilo e obras de designers famosos. Projeto final."
+	},{
+		"id": "SMD0119",
+		"nome": "Tópicos avançados em Design de Interfaces",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"design\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Introdução a projeto e padrões de interface para dispositivos móveis. Usabilidade em dispositivos\nmóveis. Guidelines para desenvolvimento de interface para dispositivos móveis. Conceitos básicos\nsobre interfaces gráficas para jogos digitais. Projeto gráfico e usabilidade aplicada a jogos. Projeto\nFinal."
+	},{
+		"id": "SMD0120",
+		"nome": "Identidade Sonora de Marcas",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"audiovisual\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Conceito de branding. Identidade sonora como estratégia de fortalecimento das marcas. Som e\nmemória. Noções sobre comportamento do consumidor. Identidade sonora e jingles. Conceito de\njingles: criação, locução e sonoplastia. Concepção e criação de identidades sonoras.",
+		"requisitos": "SMD0032"
+	},{
+		"id": "SMD0121",
+		"nome": "Análise de Desempenho",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"optativa\"",
+		"requisitos": "SMD0102"
+	},{
+		"id": "SMD0122",
+		"nome": "Programação para Dispositivos Móveis",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"sistemas\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Panorama do desenvolvimento de software para plataformas móveis (sistemas operacionais,\nlinguagens de programação, segmento de mercado e ecossistemas). Modelos de programação para\nplataformas móveis (ex., programação baseada em eventos, programação reativa e programação\nsensível ao contexto, abordagens multiplataforma e cross-platform). Ferramentas de suporte ao\ndesenvolvimento, empacotamento, implantação, emulação, depuração e teste de software. Estudo de\numa plataforma móvel em particular. Desenvolvimento de software para a plataforma estudada."
+	},{
+		"id": "SMD0123",
+		"nome": "Computação Móvel e Ubíqua",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"sistemas\"",
+		"categoria": "\"optativa\""
+	},{
+		"id": "SMD0124",
+		"nome": "Produção Audiovisual para Crianças e Adolescentes",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"optativa\""
+	},{
+		"id": "SMD0125",
+		"nome": "Projetos para Educação Online",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"categoria": "\"optativa\"",
+		"requisitos": "SMD0107, SMD0092"
+	},{
+		"id": "SMD0126",
+		"nome": "Técnicas de Animação 3D 2",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"audiovisual\"",
+		"categoria": "\"optativa\"",
+		"requisitos": "SMD0128"
+	},{
+		"id": "SMD0127",
+		"nome": "Design e Identidade de Marca",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"design\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Conceito de marca. Ideais da identidade da marca Multisensorial. Elementos da identidade da marca. Sistemas de Identidade Visual\ne Multisensorial. Processo de criação de identidade de marca. Análise de casos de experiência sinestésica com a marca utilizando\nprodutos multimídia. Desenvolvimento de projetos práticos.",
+		"requisitos": "SMD0105"
+	},{
+		"id": "SMD0128",
+		"nome": "Técnicas de Animação 3D 1",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"audiovisual\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Construção de personagens, conceitos básicos de rigging. Princípios básicos aplicados à animação de caracteres. Ciclos de\ncaminhadas e corridas humanas. Caminhadas e corridas de animais. Animando peixes e cobras. Animação de Pássaros. Animação e\natuação, linguagem corporal. Interpretação: expressões faciais. Sincronismo labial. Animação com vários personagens em cena.",
+		"requisitos": "SMD0049"
+	},{
+		"id": "SMD0129",
+		"nome": "Técnicas de Animação 2D",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"audiovisual\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "História da animação. Introdução ao universo da animação. Estudo específico das técnicas, procedimentos e ferramentas. Princípios\ne técnicas da animação clássica: teoria e prática. Exercícios. Projeto Final.",
+		"requisitos": "SMD0098"
+	},{
+		"id": "SMD0130",
+		"nome": "Design Emocional",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"design\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Design Emocional: conceitos e aplicações. Níveis de processamento cognitivo: visceral, comportamental e reflexivo. Foco e\ncriatividade. Psicologia dos objetos atraentes. Avaliação emocional. Design de objetos para diversão e prazer. Microinterações.\nInterações sedutoras. Interação divertida: estímulo e mistério.\nDesenvolvimento e avaliação de soluções de design utilizando os conceitos estudados.",
+		"requisitos": "SMD0108"
+	},{
+		"id": "SMD0131",
+		"nome": "Ferramentas de Modelagem Tridimensional 2",
+		"cargaHoraria": 64,
+		"creditos": 4,
+		"trilha": "\"jogos\"",
+		"categoria": "\"optativa\"",
+		"conteudo": "Modelagem orgânica. Modelagem de personagens, animais e criaturas. Mapeamento avançado de\ntexturas. Noções de modelagem escultural. Retopologia. Normal maps. Introdução a técnicas\navançadas de renderização, iluminação e materiais. Render e exportação para Games.",
+		"requisitos": "SMD0034"
+	},{
+		"id": "SMD0077",
+		"nome": "Trabalho de Conclusão de Curso",
+		"cargaHoraria": 128,
+		"creditos": 8,
+		"categoria": "\"obrigatoria\"",
+		"conteudo": "Processo de elaboração de projetos. Roteiro: título, caracterização do problema e justificativa,\nobjetivos, metas, metodologia, cronograma e referências bibliográficas. Formulação, apresentação e\ndefesa de projeto.",
+		"requisitos": "SMD0111"
+	}
+]

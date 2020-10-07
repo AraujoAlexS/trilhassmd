@@ -25,10 +25,10 @@
                 <!--Navegador vertical-->
                 <ul class="nav flex-column my-5 ">
                     <li class="nav-item header-nav-link ">
-                        <img src="" alt="" class="rounded-circle imagem-usuario">
+                        <a href=""> <img src="" alt="" class="rounded-circle imagem-usuario">
                     </li>
-                    <li class="nav-item header-nav-link">
-                        <span class="nome-usuario"> Meu nome</span>
+                    <li class="nav-item header-nav-link text-center">
+                        <span class="nome-usuario text-center" id="nome-usuario"></span>
                     </li>
                     <li class="nav-item header-nav-link nav-icone">
                         <a class="nav-link " href="index.html"><i class="fas fa-graduation-cap"></i> Minha jornada</a>
@@ -47,18 +47,49 @@
                         <a class="nav-link" href="sobre.html"><i class="fas fa-scroll"></i> Sobre o projeto</a>
                     </li>
                     <li class="nav-item header-nav-link nav-icone">
-                        <a class="nav-link" href="#"><i class="fas fa-chevron-circle-left"></i> Sair</a>
+                        <a class="nav-link" href="#" id="sair"><i class="fas fa-chevron-circle-left"></i> Sair</a>
                     </li>
                 </ul>
             </div>
             <!--Coluna de informações-->
             <div class="col-10">
-                <!--Linha de "minha formação"-->
-
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="titulo--trilhas my-3 text-center col-12">
+                            <h1>Bem vindo(a) ao trilhas.SMD</h1>
+                            <h3>sinta-se a vontade para explorar as trilhas disponíveis no curso</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="container-fotos d-flex justify-content-around flex-wrap">
+                            <div class="banner-img-trilha  m-3">
+                                <a href="trilhaSistemas.html">
+                                    <img class="img-thumbnail img-trilha" src="imagens/Sistemas trilha (1).png" alt="">
+                                </a>
+                            </div>
+                            <div class="banner-img-trilha  m-3">
+                                <a href="trilhaDesign.html">
+                                    <img class="img-thumbnail img-trilha" src="imagens/Design trilha (1).png" alt="">
+                                </a>
+                            </div>
+                            <div class="banner-img-trilha  m-3">
+                                <a href="trilhaAudiovisual.html">
+                                    <img class="img-thumbnail img-trilha" src="imagens/Audiovisual trilha (1).png"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="banner-img-trilha  m-3">
+                                <a href="trilhaJogos.html">
+                                    <img class="img-thumbnail img-trilha" src="imagens/Jogos trilha (1).png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    
+
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
 

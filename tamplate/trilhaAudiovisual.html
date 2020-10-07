@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trilhas SMD - Mapa do Curso</title>
+    <title>Trilhas SMD - Trilhas e Disciplinas</title>
 
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -25,7 +25,7 @@
                 <!--Navegador vertical-->
                 <ul class="nav flex-column my-5 ">
                     <li class="nav-item header-nav-link ">
-                        <img src="" alt="" class="rounded-circle imagem-usuario">
+                        <a href=""> <img src="" alt="" class="rounded-circle imagem-usuario">
                     </li>
                     <li class="nav-item header-nav-link text-center">
                         <span class="nome-usuario text-center" id="nome-usuario"></span>
@@ -33,11 +33,11 @@
                     <li class="nav-item header-nav-link nav-icone">
                         <a class="nav-link " href="index.html"><i class="fas fa-graduation-cap"></i> Minha jornada</a>
                     </li>
-                    <li class="nav-item header-nav-link nav-icone">
+                    <li class="nav-item header-nav-link nav-icone link-ativo">
                         <a class="nav-link" href="trilhasDisciplinas.html"><i class="fas fa-route"></i> Trilhas e
                             disciplinas</a>
                     </li>
-                    <li class="nav-item header-nav-link nav-icone link-ativo">
+                    <li class="nav-item header-nav-link nav-icone">
                         <a class="nav-link" href="mapaDoCurso.html"><i class="fas fa-compass"></i> Mapa do curso</a>
                     </li>
                     <li class="nav-item header-nav-link nav-icone">
@@ -47,17 +47,30 @@
                         <a class="nav-link" href="sobre.html"><i class="fas fa-scroll"></i> Sobre o projeto</a>
                     </li>
                     <li class="nav-item header-nav-link nav-icone">
-                        <a class="nav-link" href="#" id='sair'><i class="fas fa-chevron-circle-left"></i> Sair</a>
+                        <a class="nav-link" href="#" id="sair"><i class="fas fa-chevron-circle-left"></i> Sair</a>
                     </li>
                 </ul>
             </div>
             <!--Coluna de informações-->
             <div class="col-10">
-                <!--Linha de "minha formação"-->
-                <div class='d-flex justify-content-around flex-wrap lista-cadeira'>
+                <div class="container mt-5">
+                    <div class="trilha-sistemas-completa my-3" id="trilha-audiovisual-completa">
+                        <div class="row">
+                            <div class="titulo--trilhas my-3 text-center col-12">
+                                <h1>Bem vindo(a) a trilha de audiovisual</h1>
+                                <h3></h3>
+                            </div>
+                        </div>
+                        <div class="row">
 
+                            <div class="col-12">
+                                <div id="accordion">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -107,6 +120,8 @@
     <!--CDN Vue-->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="js/auth.js"></script>
+
+
 
 </body>
 

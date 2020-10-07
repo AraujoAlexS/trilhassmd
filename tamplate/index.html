@@ -29,7 +29,7 @@
                     <li class="nav-item header-nav-link">
                         <img src="" alt="" class="rounded-circle imagem-usuario">
                     </li>
-                    <li class="nav-item header-nav-link text-center" debug>
+                    <li class="nav-item header-nav-link text-center">
                         <span class="nome-usuario text-center" id="nome-usuario"></span>
                     </li>
                     <li class="nav-item header-nav-link nav-icone link-ativo">
@@ -66,10 +66,10 @@
                         <div class="col-12 bg-white p-1">
                             <!--Coluna esquerda (titulo, icones e barra de conclusão)-->
                             <div class="container shadow rounded">
-                                <div class="row ">
+                                <div class="row " id="row-conclusao">
                                     <div class="col-7 ">
                                         <!--Titulo da sessão-->
-                                        <h5 class="mt-4 mb-2 p-1">Minha formação</h5>
+                                        <h5 class="mt-3 mb-2 p-1">Minha formação</h5>
                                         <!--Icones de trilhas-->
                                         <div class="d-flex justify-content-around icones p-1" id="icone-trilha">
                                             <!--Uso o Vue para implementar os icones das trilhas, 
@@ -77,30 +77,50 @@
                                             não me parece uma boa ideia adotar o Vue, ia 
                                             precisar de uma refatoração completa do projeto 
                                         -->
-                                            <div class="icone-trilha cor-sistemas  rounded-circle"><span
-                                                    v-html='trilhas[0].icone'></span></div>
-                                            <div class="icone-trilha cor-design  rounded-circle"><span
-                                                    v-html='trilhas[1].icone'></span></div>
-                                            <div class="icone-trilha cor-audiovisual  rounded-circle"><span
-                                                    v-html='trilhas[2].icone'></span></div>
-                                            <div class="icone-trilha cor-jogos  rounded-circle"><span
-                                                    v-html='trilhas[3].icone'></span></div>
+                                            <div>
+                                                <div class="icone-trilha cor-sistemas  rounded-circle">
+                                                    <span v-html='trilhas[0].icone'></span>
+                                                </div>
+                                                <div class="d-flex justify-content-center mb-1"><span
+                                                        class="trilha-nome">Sistemas</span></div>
+                                            </div>
+                                            <div>
+                                                <div class="icone-trilha cor-design  rounded-circle">
+                                                    <span v-html='trilhas[1].icone'></span>
+                                                </div>
+                                                <div class="d-flex justify-content-center mb-1"><span
+                                                        class="trilha-nome">Design</span></div>
+                                            </div>
+                                            <div>
+                                                <div class="icone-trilha cor-audiovisual  rounded-circle">
+                                                    <span v-html='trilhas[2].icone'></span>
+                                                </div>
+                                                <div class="d-flex justify-content-center mb-1"><span
+                                                        class="trilha-nome">Audiovisual</span></div>
+                                            </div>
+                                            <div>
+                                                <div class="icone-trilha cor-jogos  rounded-circle">
+                                                    <span v-html='trilhas[3].icone'></span>
+                                                </div>
+                                                <div class="d-flex justify-content-center mb-1"><span
+                                                        class="trilha-nome">Jogos</span></div>
+                                            </div>
                                         </div>
-                                        <!--Barrade conslusão dinâmica-->
-                                        <div id="conclusao-trilha">
+                                        <!--Barra de conslusão dinâmica-->
+                                        <div id="conclusao-trilha" class="mb-3">
                                             <div class="progress" style="height: 25px;">
                                                 <div class="progress-bar cor-sistemas" id='progress-bar-sistemas'
-                                                    role="progressbar" style="width: 5%" aria-valuenow="15"
-                                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                                    role="progressbar" aria-valuenow="15" aria-valuemin="0"
+                                                    aria-valuemax="100"></div>
                                                 <div class="progress-bar cor-design" id='progress-bar-design'
-                                                    role="progressbar" style="width: 5%" aria-valuenow="30"
-                                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                                    role="progressbar" aria-valuenow="30" aria-valuemin="0"
+                                                    aria-valuemax="100"></div>
                                                 <div class="progress-bar cor-audiovisual" id='progress-bar-audiovisual'
-                                                    role="progressbar" style="width: 5%" aria-valuenow="20"
-                                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                                    role="progressbar" aria-valuenow="20" aria-valuemin="0"
+                                                    aria-valuemax="100"></div>
                                                 <div class="progress-bar cor-jogos" id='progress-bar-jogos'
-                                                    role="progressbar" style="width: 5%" aria-valuenow="20"
-                                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                                    role="progressbar" aria-valuenow="20" aria-valuemin="0"
+                                                    aria-valuemax="100"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -111,8 +131,8 @@
                                             <h6>Disciplinas obrigatórias</h6>
                                             <div class="progress">
                                                 <div class="progress-bar bg-primary" id='progress-bar-obrigatorias'
-                                                    role="progressbar" style="width: 25%" aria-valuenow="25"
-                                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                                    role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                                                    aria-valuemax="100"></div>
                                             </div>
                                         </div>
 
@@ -120,8 +140,8 @@
                                             <h6>Disciplinas eletivas</h6>
                                             <div class="progress">
                                                 <div class="progress-bar bg-primary" id='progress-bar-eletivas'
-                                                    role="progressbar" style="width: 25%" aria-valuenow="25"
-                                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                                    role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                                                    aria-valuemax="100"></div>
                                             </div>
                                         </div>
 
@@ -129,8 +149,8 @@
                                             <h6>Disciplinas optativas</h6>
                                             <div class="progress">
                                                 <div class="progress-bar bg-primary" id='progress-bar-optativas'
-                                                    role="progressbar" style="width: 25%" aria-valuenow="25"
-                                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                                    role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                                                    aria-valuemax="100"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -140,13 +160,194 @@
                         </div>
                     </div>
                     <div class="row d-flex justify-content-between my-5 ">
-                        <div class="col-8 bg-white p-5 shadow rounded">Status de conclusão de trilha</div>
-                        <div class="col-3 bg-white p-5 shadow rounded">Trilhas secundarias</div>
+                        <div class="col-12 bg-white  shadow rounded">
+                            <span class='mt-2 ml-5'> <h5>Conquistas</h5> </span>
+                            <div class="d-flex flex-wrap justify-content-center" id='conquistas'>
+                                <div class="icone-conquista rounded-circle m-3">
+                                    <span> <i class="fas fa-plus"></i> </span>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                     <div class="row my-5">
-                        <div class="container col-12" id='semestres'>
-                            <!--Semestres-->
+                        <div class="container d-flex flex-wrap justify-content-around col-12" id='semestres'>
+
+
                         </div>
+
+                        <!-- Button trigger modal -->
+
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalStatus" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title" id="exampleModalLongTitle">Qual status deseja definir
+                                            para esta disciplina?</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="d-flex justify-content-around">
+                                            <button class="btn bg-cor-pretendida btn-status" id="pretendida">a
+                                                fazer</button>
+
+                                            <button class="btn bg-cor-cursando btn-status"
+                                                id="cursando">Cursando</button>
+
+                                            <button class="btn bg-cor-concluida btn-status"
+                                                id="concluida">ConcluÍda</button>
+                                        </div>
+                                        <p id="texto-modal"></p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="modalAddSemestre" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title" id="exampleModalLongTitle">Insira as cadeiras do seus
+                                            semestre</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form id="add-semestre-form">
+                                            <div class="form-row">
+                                                <div class="form-group col-md-8">
+                                                    <label for="add-semestre">Semestre</label>
+                                                    <input type="text" class="form-control" id="add-semestre"
+                                                        placeholder="2020.1">
+                                                    <span id='add-semestre-alerta' style="color: red;"></span>
+                                                </div>
+                                            </div>
+                                            <!--Primeiro semestre-->
+                                            <div class="form-row">
+                                                <div class="form-group col-md-7">
+                                                    <label for="cadeira-1">Primeira cadeira</label>
+                                                    <input type="text" list="cadeira-op-1" id="cadeira-1"
+                                                        class="form-control">
+                                                    <datalist id="cadeira-op-1"></datalist>
+                                                </div>
+                                                <div class="form-group col-md-5">
+                                                    <label for="cadeira-status-1">Status de conclusão</label>
+                                                    <select id="cadeira-status-1" class="form-control">
+                                                        <option value="concluida">Concluída</option>
+                                                        <option value="cursando">Cursando</option>
+                                                        <option value="pretendida">A fazer</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <!--Segundo semestre-->
+                                            <div class="form-row">
+                                                <div class="form-group col-md-7">
+                                                    <label for="cadeira-2">Segunda cadeira</label>
+                                                    <input type="text" list="cadeira-op-2" id="cadeira-2"
+                                                        class="form-control">
+                                                    <datalist id="cadeira-op-2"></datalist>
+                                                </div>
+                                                <div class="form-group col-md-5">
+                                                    <label for="cadeira-status-2">Status de conclusão</label>
+                                                    <select id="cadeira-status-2" class="form-control">
+                                                        <option value="concluida">Concluída</option>
+                                                        <option value="cursando">Cursando</option>
+                                                        <option value="pretendida">A fazer</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <!--Terceira cadeira-->
+                                            <div class="form-row">
+                                                <div class="form-group col-md-7">
+                                                    <label for="cadeira-3">Terceira cadeira</label>
+                                                    <input type="text" list="cadeira-op-3" id="cadeira-3"
+                                                        class="form-control">
+                                                    <datalist id="cadeira-op-3"></datalist>
+                                                </div>
+                                                <div class="form-group col-md-5">
+                                                    <label for="cadeira-status-3">Status de conclusão</label>
+                                                    <select id="cadeira-status-3" class="form-control">
+                                                        <option value="concluida">Concluída</option>
+                                                        <option value="cursando">Cursando</option>
+                                                        <option value="pretendida">A fazer</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <!--Quarto cadeira-->
+                                            <div class="form-row">
+                                                <div class="form-group col-md-7">
+                                                    <label for="cadeira-4">Quarta cadeira</label>
+                                                    <input type="text" list="cadeira-op-4" id="cadeira-4"
+                                                        class="form-control">
+                                                    <datalist id="cadeira-op-4"></datalist>
+                                                </div>
+                                                <div class="form-group col-md-5">
+                                                    <label for="cadeira-status-4">Status de conclusão</label>
+                                                    <select id="cadeira-status-4" class="form-control">
+                                                        <option value="concluida">Concluída</option>
+                                                        <option value="cursando">Cursando</option>
+                                                        <option value="pretendida">A fazer</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <!--Quinta cadeira-->
+                                            <div class="form-row">
+                                                <div class="form-group col-md-7">
+                                                    <label for="cadeira-5">Quinta cadeira</label>
+                                                    <input type="text" list="cadeira-op-5" id="cadeira-5"
+                                                        class="form-control">
+                                                    <datalist id="cadeira-op-5"></datalist>
+                                                </div>
+                                                <div class="form-group col-md-5">
+                                                    <label for="cadeira-status-5">Status de conclusão</label>
+                                                    <select id="cadeira-status-5" class="form-control">
+                                                        <option value="concluida">Concluída</option>
+                                                        <option value="cursando">Cursando</option>
+                                                        <option value="pretendida">A fazer</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <!--Sexto cadeira-->
+                                            <div class="form-row">
+                                                <div class="form-group col-md-7">
+                                                    <label for="cadeira-1">Sexta cadeira</label>
+                                                    <input type="text" list="cadeira-op-6" id="cadeira-6"
+                                                        class="form-control">
+                                                    <datalist id="cadeira-op-6"></datalist>
+                                                </div>
+                                                <div class="form-group col-md-5">
+                                                    <label for="cadeira-status-6">Status de conclusão</label>
+                                                    <select id="cadeira-status-6" class="form-control">
+                                                        <option value="concluida">Concluída</option>
+                                                        <option value="cursando">Cursando</option>
+                                                        <option value="pretendida">A fazer</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+
+                                            <button type="submit" class="btn btn-success">Criar Semestre</button>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
