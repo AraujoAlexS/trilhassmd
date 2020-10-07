@@ -319,7 +319,7 @@ if (listaCadeira) {
 
       // quanto ao retorno do id de uma cadeira, é necessário pegar diretamente do documento. (DOC)
       let card = `
-      <div class="card" style="width: 18rem;">
+      <div class="card mb-3" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title">${cadeira.nome}</h5>
           <p class="card-text">${cadeira.descricao}</p>
@@ -330,10 +330,6 @@ if (listaCadeira) {
           <li class="list-group-item">${cadeira.creditos}</li>
           <li class="list-group-item">${cadeira.trilha}</li>
         </ul>
-        <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
       </div>
     `;
       html += card;
