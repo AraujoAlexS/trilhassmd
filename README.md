@@ -13,3 +13,5 @@ Em seguida será disposto uma página que demonstra sua taxa de conclusão na se
 Além disso são mostradas as conquistas que você obteve durante sua jornada.
 
 Por fim um usuário pode alterar os status de conclusão de uma determinada cadeira, bem como adicionar semestres. 
+
+você pode testar a aplicação com o login teste30@gmail.com e senha 123456
